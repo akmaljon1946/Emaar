@@ -1,0 +1,295 @@
+.details {
+	.detal {
+		display: flex;
+		justify-content: space-between;
+	}
+	.community {
+		width: 310px;
+		height: 358px;
+		background: #ffffff;
+		border: 1px solid rgba(0, 0, 0, 0.05);
+		box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.03);
+
+		&__list {
+			padding-left: 47px;
+			list-style-type: circle;
+		}
+
+		&__item {
+			padding-bottom: 15px;
+		}
+
+		&__item:hover {
+			list-style-type: disc;
+		}
+
+		&__items {
+			padding-bottom: 15px;
+		}
+
+		&__listes {
+			padding-left: 30px;
+			list-style-type: none;
+		}
+
+		&__heading {
+			font-family: 'Lato';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 24px;
+			text-transform: uppercase;
+			margin-left: 30px;
+			margin-top: 30px;
+			padding-bottom: 15px;
+
+			color: #071c35;
+		}
+
+		&__link {
+			font-family: 'Lato';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+			text-transform: uppercase;
+			text-decoration: none;
+
+			color: #071c35;
+			opacity: 0.5;
+			&:hover {
+				color: #071c35;
+				opacity: 1;
+			}
+		}
+	}
+	//details
+	&__inner {
+		padding: 25px;
+		max-width: 920px;
+		border: 1px solid rgba(7, 28, 53, 0.1);
+		margin-bottom: 90px;
+	}
+	&__inner2 {
+		padding: 25px;
+		max-width: 920px;
+		border: 1px solid rgba(7, 28, 53, 0.1);
+		margin-bottom: 90px;
+		margin-left: 328px;
+	}
+
+	&__top {
+		max-width: 920px;
+		min-height: 570px;
+		background-image: url(../../../images/harbour.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 54px;
+	}
+	&__top2 {
+		max-width: 920px;
+		min-height: 570px;
+		background-image: url(../../../images/dubaihills.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 54px;
+	}
+	&__top3 {
+		max-width: 920px;
+		min-height: 570px;
+		background-image: url(../../../images/emaarSouth.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 54px;
+	}
+
+	&__top-box {
+		width: 920px;
+		height: 173px;
+		padding-left: 48px;
+		background: rgba(255, 255, 255, 0.85);
+		backdrop-filter: blur(7.1134px);
+	}
+
+	&__content {
+		margin-left: 30px;
+		background: rgba(255, 255, 255, 0.85);
+		border-width: 1px 1px 1px 0px;
+		border-style: solid;
+		border-color: rgba(7, 28, 53, 0.1);
+	}
+
+	&__heading {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 28.4536px;
+		line-height: 38px;
+		text-transform: uppercase;
+		margin-top: 26px;
+
+		color: #071c35;
+	}
+
+	&__text {
+		width: 803px;
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 15.1753px;
+		line-height: 23px;
+		color: #071c35;
+	}
+
+	&__bottom {
+		position: relative;
+		padding-left: 85px;
+		padding-right: 85px;
+	}
+
+	&__bottom-btn1 {
+		position: absolute;
+		top: 280px;
+		left: 8px;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+
+		&::before {
+			content: '';
+			width: 65px;
+			height: 14px;
+			background-image: url(../../../images/arrow-black.png);
+			background-repeat: no-repeat;
+			background-position: 6px 3px;
+			display: inline-block;
+		}
+	}
+
+	&__bottom-btn2 {
+		position: absolute;
+		top: 280px;
+		right: 8px;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+		transform: rotate(180deg);
+
+		&::before {
+			content: '';
+			width: 65px;
+			height: 14px;
+			background-image: url(../../../images/arrow-black.png);
+			background-repeat: no-repeat;
+			background-position: 6px 3px;
+			display: inline-block;
+		}
+	}
+
+	&__bottom-top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 18px;
+	}
+
+	&__box {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__bottom-heading {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 40px;
+		text-transform: uppercase;
+		margin-top: 30px;
+
+		color: #071c35;
+	}
+
+	&__bottom-text {
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 30px;
+		line-height: 40px;
+		text-transform: uppercase;
+
+		color: #071c35;
+	}
+
+	&__room {
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		color: #071c35;
+
+		&::before {
+			content: '';
+			width: 30px;
+			height: 20px;
+			background-image: url(../../../images/bed-icon.png);
+			background-repeat: no-repeat;
+			background-position: 1px 5px;
+			display: inline-block;
+		}
+	}
+
+	&__title {
+		width: 250px;
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 13px;
+		color: #777777;
+	}
+
+	&__price {
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 40px;
+		text-transform: uppercase;
+
+		color: #071c35;
+	}
+
+	&__btn {
+		@include btn-medium;
+		margin-top: 14px;
+	}
+
+	&__link {
+		width: 250px;
+		height: 40px;
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		text-decoration: none;
+
+		text-align: center;
+		text-transform: uppercase;
+		background: #071c35;
+		color: #ffffff;
+		cursor: pointer;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}

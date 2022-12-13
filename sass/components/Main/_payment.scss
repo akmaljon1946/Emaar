@@ -1,0 +1,112 @@
+.payment {
+	position: relative;
+	width: 860px;
+	height: 500px;
+	background-image: url(../../../images/payoption.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 145px;
+	margin-bottom: 250px;
+
+	&__inner {
+		position: absolute;
+		left: 596px;
+		top: 212px;
+		width: 560px;
+		height: 337px;
+		background: rgba(255, 255, 255, 0.85);
+		box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.07);
+		backdrop-filter: blur(7.5px);
+		padding-top: 50px;
+		padding-left: 50px;
+	}
+
+	&__heading {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 50px;
+		line-height: 120%;
+		margin-bottom: 41px;
+		text-transform: uppercase;
+
+		color: #071c35;
+	}
+
+	&__text {
+		width: 503px;
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 26px;
+		color: #071c35;
+	}
+
+	&__btn {
+		width: 161px;
+		height: 40px;
+		border: 1px solid rgba(7, 28, 53, 0.15);
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		text-transform: uppercase;
+		cursor: pointer;
+		background-color: #fff;
+		color: #071c35;
+
+		&:hover {
+			background-color: #cdcdcd;
+			transition: all 355ms ease;
+		}
+	}
+}
+//about Emaar
+
+.about {
+	position: relative;
+	width: 860px;
+	height: 500px;
+	background-image: url(../../../images/moreEmaar.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 145px;
+	margin-bottom: 250px;
+	margin-left: 440px;
+
+	&__inner {
+		position: absolute;
+		right: 551px;
+		top: 171px;
+		width: 594px;
+		height: 379px;
+		background: rgba(255, 255, 255, 0.85);
+		box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.07);
+		backdrop-filter: blur(7.5px);
+		padding-top: 50px;
+		padding-left: 50px;
+	}
+
+	&__heading {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 50px;
+		line-height: 120%;
+		margin-bottom: 41px;
+		text-transform: uppercase;
+
+		color: #071c35;
+	}
+
+	&__text {
+		width: 528px;
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 24px;
+		color: #071c35;
+	}
+}

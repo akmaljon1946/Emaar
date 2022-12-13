@@ -1,0 +1,24 @@
+.gallery {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 148px;
+
+	&__right {
+		display: flex;
+		flex-direction: column;
+		gap: 22px;
+	}
+}
+.heading {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 120%;
+	text-align: center;
+	margin-bottom: 30px;
+
+	text-transform: uppercase;
+
+	color: #071c35;
+}

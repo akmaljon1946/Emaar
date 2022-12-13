@@ -1,0 +1,92 @@
+.large_container {
+	background-image: url(../../../images/main_photo.png);
+	background-repeat: no-repeat;
+	margin-bottom: 153px;
+}
+
+.header {
+	position: relative;
+	&__logo {
+		padding-bottom: 30px;
+	}
+	&__inner {
+		width: 352px;
+		height: 401px;
+		position: absolute;
+		left: 70px;
+		top: 309px;
+		padding: {
+			top: 30px;
+			left: 30px;
+			// bottom: 50px;
+		}
+
+		background: rgba(7, 28, 53, 0.5);
+		backdrop-filter: blur(7.5px);
+	}
+	.line {
+		width: 100px;
+		height: 1px;
+		margin-bottom: 30px;
+		background-color: #fff;
+	}
+
+	&__heading {
+		width: 215px;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 30px;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+	&__box {
+		width: 315px;
+		display: flex;
+		margin-bottom: 50px;
+	}
+
+	&__list {
+		list-style-type: none;
+	}
+
+	&__text {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 40px;
+		text-transform: uppercase;
+		color: #fff;
+	}
+
+	&__link {
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		text-decoration: none;
+		color: #c4c4c4;
+	}
+
+	&__link-btn {
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		text-decoration: none;
+		color: #c4c4c4;
+
+		&::after {
+			content: '';
+			width: 85px;
+			height: 10px;
+			background-image: url(../../../images/arow-icon.png);
+			background-repeat: no-repeat;
+			background-position: 6px 3px;
+			display: inline-block;
+		}
+	}
+}

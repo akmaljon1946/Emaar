@@ -1,0 +1,94 @@
+.project {
+	margin-bottom: 104px;
+	&__heading {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 54px;
+		line-height: 40px;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 52px;
+		color: #071c35;
+	}
+
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		list-style-type: none;
+	}
+
+	&__inner {
+		position: relative;
+		width: 390px;
+		height: 520px;
+		background-image: url(../../../images/greecRice.png);
+		background-repeat: no-repeat;
+		width: 390px;
+		height: 520px;
+	}
+	&__inner2 {
+		position: relative;
+		width: 390px;
+		height: 520px;
+		background-image: url(../../../images/expoGolf.png);
+		background-repeat: no-repeat;
+		width: 390px;
+		height: 520px;
+	}
+	&__inner3 {
+		position: relative;
+		width: 390px;
+		height: 520px;
+		background-image: url(../../../images/hillsPark.png);
+		background-repeat: no-repeat;
+		width: 390px;
+		height: 520px;
+	}
+
+	&__item {
+		border: 1px solid rgba(7, 28, 53, 0.1);
+		padding: 15px;
+	}
+
+	&__box {
+		position: absolute;
+		bottom: 0;
+		width: 346px;
+		height: 80px;
+		background: rgba(255, 255, 255, 0.85);
+		backdrop-filter: blur(7.5px);
+		padding: 15px 22px 0 22px;
+	}
+
+	&__text {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 25px;
+		line-height: 25px;
+		text-transform: uppercase;
+		margin-bottom: 7px;
+		color: #071c35;
+	}
+
+	&__price {
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		text-transform: uppercase;
+
+		color: #071c35;
+	}
+	small {
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 10px;
+		line-height: 19px;
+		text-transform: uppercase;
+
+		color: #071c35;
+	}
+}

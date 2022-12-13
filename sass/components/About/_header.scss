@@ -1,0 +1,48 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 35px;
+	padding-bottom: 35px;
+
+	&__head {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 30px;
+		text-transform: uppercase;
+
+		color: #071c35;
+	}
+
+	&__btn {
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		text-transform: uppercase;
+		text-decoration: none;
+
+		color: #071c35;
+
+		&::after {
+			width: 18px;
+			height: 18px;
+			content: '';
+			background-image: url(../../../images/close.png);
+			background-repeat: no-repeat;
+			background-position: 0 0;
+			display: inline-block;
+			margin-left: 10px;
+		}
+	}
+
+	.large-container {
+		width: 1440px;
+		height: 500px;
+		background-image: url(../../../images/emaar.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}

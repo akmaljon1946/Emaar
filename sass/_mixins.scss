@@ -1,0 +1,18 @@
+@mixin btn-medium {
+	width: 250px;
+	height: 40px;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+	text-align: center;
+	text-transform: uppercase;
+	background: #071c35;
+	color: #ffffff;
+	cursor: pointer;
+	&:hover {
+		opacity: 0.8;
+	}
+}

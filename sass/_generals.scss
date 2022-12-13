@@ -1,33 +1,47 @@
 *,
+ul {
+	padding: 0;
+}
+*,
+p,
+h1,
+h2 {
+	margin: 0;
+}
 *::before,
-*::after{
-  box-sizing: border-box;
-
+*::after {
+	box-sizing: border-box;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-
+body {
+	margin: 0;
+	padding: 0;
+	// color: #ffffff;
+	font-family: 'Alethia Pro';
 }
 
-.container{
-  max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
+.container {
+	max-width: 1300px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin: 0 auto;
+}
+
+.large_container {
+	max-width: 1440px;
+	min-height: 810px;
+	margin: auto;
 }
 
 .visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
 }
