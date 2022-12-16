@@ -3,11 +3,17 @@ const downloadCloseBtn = document.getElementById('close')
 const myModal = document.getElementById('mymodal')
 
 mainBtn.addEventListener('click', () => {
+	myModal.classList.add('animation-open')
 	myModal.style.display = 'block'
+	myModal.classList.remove('animation-close')
 })
 
 downloadCloseBtn.addEventListener('click', () => {
-	myModal.style.display = 'none'
+	myModal.classList.add('animation-close')
+	myModal.classList.remove('animation-open')
+	setTimeout(() => {
+		myModal.style.display = 'none'
+	}, 500)
 })
 
 window.onclick = function (event) {
