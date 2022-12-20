@@ -1,31 +1,60 @@
-const mainBtn = document.querySelector('.main__btn')
-const downloadCloseBtn = document.getElementById('close')
-const myModal = document.getElementById('mymodal')
+const seeMoreBtn = () => {
+	document.querySelector('#bimodal').classList.add('animation-open')
+	document.querySelector('.curtain').classList.add('curtain--on')
+	document.getElementById('bimodal').style.display = 'flex'
+	document.getElementById('bimodal').classList.remove('animation-close')
+}
 
-mainBtn.addEventListener('click', () => {
-	myModal.classList.add('animation-open')
-	myModal.style.display = 'block'
-	myModal.classList.remove('animation-close')
-})
-
-downloadCloseBtn.addEventListener('click', () => {
-	myModal.classList.add('animation-close')
-	myModal.classList.remove('animation-open')
+const closeBtn = () => {
+	document.getElementById('bimodal').classList.add('animation-close')
+	document.getElementById('bimodal').classList.remove('animation-open')
+	document.querySelector('.curtain').classList.remove('curtain--on')
 	setTimeout(() => {
-		myModal.style.display = 'none'
+		document.getElementById('bimodal').style.display = 'none'
 	}, 500)
-})
+}
 
-window.onclick = function (event) {
-	if (event.target == myModal) {
-		myModal.style.display = 'none'
+const winPush = () => {
+	window.onclick = function (event) {
+		if (event.target == myModal) {
+			myModal.style.display = 'none'
+		}
 	}
 }
 
-const hideTel = document.querySelector('#hideTel')
-const showTel = document.querySelector('#showTel')
+const showTelNumber = trueTel => {
+	document
+		.querySelector('#hideTel')
+		.firstChild.replaceData(6, trueTel.length, trueTel)
+}
 
-showTel.addEventListener('click', () => showSTR('777-69-69'))
+const detailCreekRiceBtn = () => {
+	document.querySelector('#rise').classList.add('animation-open')
+	document.querySelector('#emaar').style.display = 'none'
+	document.querySelector('#rise').style.display = 'block'
+	document.querySelector('#rise').classList.remove('animation-close')
+}
+const riseBtn = () => {
+	document.querySelector('#rise').classList.add('animation-close')
+	document.querySelector('#emaar').style.display = 'block'
+	document.querySelector('#rise').classList.remove('animation-open')
+	setTimeout(() => {
+		document.querySelector('#rise').style.display = 'none'
+	}, 500)
+}
 
-const showSTR = trueTel =>
-	hideTel.firstChild.replaceData(6, trueTel.length, trueTel)
+const heroBtn = () => {
+	document.querySelector('#modal').classList.add('animation-in')
+	document.querySelector('#modal').style.display = 'block'
+	document.querySelector('.curt').classList.add('curt--on')
+	document.querySelector('#modal').classList.remove('animation-out')
+}
+
+const modalHide = () => {
+	document.querySelector('#modal').classList.add('animation-out')
+	document.querySelector('.curt').classList.remove('curt--on')
+	document.querySelector('#modal').classList.remove('animation-in')
+	setTimeout(() => {
+		document.querySelector('#modal').style.display = 'none'
+	}, 500)
+}
